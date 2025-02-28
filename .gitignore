@@ -12,6 +12,19 @@
 .swiftpm/
 migrate_working_dir/
 
+# Ignore C++ source files
+*.cpp
+*.hpp
+*.h
+*.cc
+*.cxx
+
+# Ignore compiled object files
+*.o
+*.obj
+*.exe
+*.dll
+
 # IntelliJ related
 *.iml
 *.ipr
