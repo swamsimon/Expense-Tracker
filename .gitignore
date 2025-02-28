@@ -1,4 +1,4 @@
-# Ignore C++ files
+# Ignore C++ source and header files
 *.cpp
 *.hpp
 *.h
@@ -6,6 +6,7 @@
 *.cxx
 *.o
 *.obj
+
 
 # Flutter/Dart specific ignores
 .dart_tool/
