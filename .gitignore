@@ -12,19 +12,6 @@
 .swiftpm/
 migrate_working_dir/
 
-# Ignore C++ source files
-*.cpp
-*.hpp
-*.h
-*.cc
-*.cxx
-
-# Ignore compiled object files
-*.o
-*.obj
-*.exe
-*.dll
-
 # IntelliJ related
 *.iml
 *.ipr
@@ -56,3 +43,21 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Ignore C++ source files
+*.cpp
+*.hpp
+*.h
+*.cc
+*.cxx
+
+# Ignore compiled object files
+*.o
+*.obj
+*.exe
+*.dll
+
+# Ignore build directories
+/build/
+/bin/
+/out/
