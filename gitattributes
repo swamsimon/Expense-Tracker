@@ -1,7 +1,7 @@
-# Ensure GitHub recognizes this repo as Dart
 *.dart linguist-language=Dart
-
-# Deprioritize C++ files if they exist
-*.cpp linguist-detectable=false
-*.hpp linguist-detectable=false
-*.h linguist-detectable=false
+*.cpp linguist-language=ignore
+*.h linguist-language=ignore
+CMakeLists.txt linguist-vendored
+*.cmake linguist-vendored
+android/* linguist-vendored
+linux/* linguist-vendored
